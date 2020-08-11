@@ -25,7 +25,7 @@ public class CalcMedia_26 {
 		while (!(num < 0)) {
 
 			num = pedirNum();
-			contador++;
+			contador++;// contador necesario para poder hacer la media
 			if (num > 0) {
 				temp += num;
 				media = temp / contador;
