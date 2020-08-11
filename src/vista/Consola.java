@@ -44,8 +44,8 @@ public class Consola {
 	
 	public static int pedirNum() {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Introduce numero:");
-		return Integer.parseInt(scan.nextLine());
+		System.out.print("");
+		return scan.nextInt();
 	}
 	
 
