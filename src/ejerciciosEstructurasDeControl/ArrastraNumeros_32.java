@@ -4,18 +4,17 @@ import vista.Consola;
 
 public class ArrastraNumeros_32 {
 
-	 private int num;
-		 
+	private int num;
+
 	public int arrastraNum() {
 		Consola con = new Consola();
-		num=Integer.parseInt(con.introCadena("Introduce numero a arrastrar: "));
+		num = Integer.parseInt(con.introCadena("Introduce numero a arrastrar: "));
 		for (int i = 0; i < num; i++) {
-			System.out.print(i+" ");
+			System.out.print(i + " ");
 		}
-		
 		return num;
 	}
-	 
+
 	public static void main(String[] args) {
 		new ArrastraNumeros_32().arrastraNum();
 	}

@@ -20,10 +20,8 @@ public class ParImpar_22 {
 		
 		do {
 			num = PositivoNegativo_21.pedirNum();
-			
 			System.out.println(num % 2 == 0 ? "El número es par"
 					: "El número es impar");
-		
 		}while(!(num==0));
 		
 		return num;
