@@ -5,21 +5,19 @@ import java.util.Scanner;
 public class Consola {
 
 	public void escribeX(String letras) {
-
 		System.out.print(letras);
-
 	}
 
 	public void escribeY(String letras) {
-
 		System.out.println(letras);
-
 	}
 
+	public void escribeNum(int num) {
+		System.out.println(num);
+	}
+	
 	public void escribeNumX(double numero) {
-
 		System.out.print(numero);
-
 	}
 
 	public String introCadena() {
@@ -40,23 +38,22 @@ public class Consola {
 		return num;
 
 	}
-	
+
 	public static int pedirNum() {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("");
 		scan.close();
 		return scan.nextInt();
 	}
-	
+
 	public String introCadena(String cadena) {
 		String letras;
-		Scanner sc = new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		escribeY(cadena);
-		letras=sc.nextLine();
+		letras = sc.nextLine();
 		sc.close();
 		return letras;
-		
-}
 
+	}
 
 }
