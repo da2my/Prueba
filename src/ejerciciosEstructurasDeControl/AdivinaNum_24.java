@@ -13,6 +13,7 @@ public class AdivinaNum_24 {
 	}
 	
 	public static int pedirNum() {
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Adivina numero, introduce: ");
 		return Integer.parseInt(scan.nextLine());
