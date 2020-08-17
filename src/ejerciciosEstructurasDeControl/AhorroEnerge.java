@@ -43,14 +43,14 @@ public class AhorroEnerge {
 	public double mostrarPrecioFatura() {
 		Consola con = new Consola();
 		
-		con.escribeLetrasX("Introduzca lectura actual del contador: ");
+		con.escribeX("Introduzca lectura actual del contador: ");
 		lecturaAct = Double.parseDouble(con.introCadena());
-		con.escribeLetrasX("Introduzca la ultima lectura del contador: ");
+		con.escribeX("Introduzca la ultima lectura del contador: ");
 		lecturaUlt = Double.parseDouble(con.introCadena());
 		consumo = lecturaAct-lecturaUlt;
 		facturaTt = calFactura();
 		
-		con.escribeLetrasX(String.join("","El precio de la factura de este mes es de: ", Double.toString(facturaTt), "€"));
+		con.escribeX(String.join("","El precio de la factura de este mes es de: ", Double.toString(facturaTt), "€"));
 		
 		return facturaTt;
 	}

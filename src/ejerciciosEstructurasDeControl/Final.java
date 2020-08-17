@@ -22,7 +22,7 @@ public class Final {
 		
 		conversion=pulgada*cmPorPulg;
 		con.escribeNumX(conversion);
-		con.escribeLetrasX("cm");
+		con.escribeX("cm");
 	}
 
 }

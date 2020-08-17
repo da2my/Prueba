@@ -9,10 +9,10 @@ public class Inicio {
 		
 		Consola con = new Consola();
 		
-		//new Final().pulgadasAcentimetro();
+//		new Final().pulgadasAcentimetro();
 		
 		
-		//new Areas().formas();
+//		new Areas().formas();
 		
 		
 		

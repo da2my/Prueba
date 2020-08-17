@@ -34,21 +34,21 @@ public class NotasCurso {
 
 	public double mostrarNotaFinal() {
 
-		con.escribeLetrasX("Introduce nota Primer trimestre: ");
+		con.escribeX("Introduce nota Primer trimestre: ");
 		priT = Double.parseDouble(con.introCadena());
-		con.escribeLetrasX("Introduce nota Segundo trimestre: ");
+		con.escribeX("Introduce nota Segundo trimestre: ");
 		segT = Double.parseDouble(con.introCadena());
-		con.escribeLetrasX("Introduce nota Tercer trimestre: ");
+		con.escribeX("Introduce nota Tercer trimestre: ");
 		terT = Double.parseDouble(con.introCadena());
 
-		con.escribeLetrasX("Introduce nota Examen Final: ");
+		con.escribeX("Introduce nota Examen Final: ");
 		examF = Double.parseDouble(con.introCadena());
-		con.escribeLetrasX("Introduce nota Trabajo Final: ");
+		con.escribeX("Introduce nota Trabajo Final: ");
 		trabajoF = Double.parseDouble(con.introCadena());
 
 		nota = mediaNotas() * 0.55 + examF * 0.30 + trabajoF * 0.15;
 
-		con.escribeLetrasX(dFormat.format(nota));
+		con.escribeX(dFormat.format(nota));
 
 		return nota;
 	}

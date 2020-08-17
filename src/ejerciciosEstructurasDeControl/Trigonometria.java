@@ -20,9 +20,9 @@ public class Trigonometria {
 		
 		double resultado;
 		
-		con.escribeLetrasX("Introduce lado opuesto: ");
+		con.escribeX("Introduce lado opuesto: ");
 		a = Double.parseDouble(con.introCadena());
-		con.escribeLetrasX("Introduce lado adyacente: ");
+		con.escribeX("Introduce lado adyacente: ");
 		b = Double.parseDouble(con.introCadena());
 		
 		resultado = Math.pow(a, 2) + Math.pow(b, 2);
@@ -30,7 +30,7 @@ public class Trigonometria {
 		
 		DecimalFormat dFormat = new DecimalFormat("###.##");
 
-		con.escribeLetrasX("La hipotenusa del triangulo rectangulo es: " +dFormat.format (c));
+		con.escribeX("La hipotenusa del triangulo rectangulo es: " +dFormat.format (c));
 	}
 
 	

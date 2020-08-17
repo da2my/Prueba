@@ -29,7 +29,7 @@ public class PrecioProducto {
 	public double mostrarPrecio() {
 		Consola con = new Consola();
 		
-		con.escribeLetrasX("Introduce Precio del Poducto: ");
+		con.escribeX("Introduce Precio del Poducto: ");
 		precioP = Double.parseDouble(con.introCadena());
 		
 		precioF = calPrecio();

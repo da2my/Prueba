@@ -60,12 +60,12 @@ public class Trabajadores {
 		String categoria = "";
 		switch (letra) {
 		case "A":
-			con.escribeLetrasX("Tiene un sueldo más suplemento de: ");
+			con.escribeX("Tiene un sueldo más suplemento de: ");
 			double sueldoA=SUELDO_MES+supTri;
 			con.escribeNumX(sueldoA);
 			break;
 		case "B":
-			con.escribeLetrasX("Tiene un sueldo más suplemento de: ");
+			con.escribeX("Tiene un sueldo más suplemento de: ");
 			double sueldoB=SUELDO_MES+supTri;
 			con.escribeNumX(sueldoB);
 			break;
