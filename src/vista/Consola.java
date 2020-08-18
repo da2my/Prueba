@@ -25,7 +25,7 @@ public class Consola {
 		Scanner scan = new Scanner(System.in);
 		escribeX("");
 		String dato = scan.next();
-		scan.close();
+		//scan.close();
 		return dato;
 	}
 
@@ -34,7 +34,7 @@ public class Consola {
 		Scanner sc = new Scanner(System.in);
 		escribeX("");
 		int num = sc.nextInt();
-		sc.close();// deshabilitar para los dados
+		//sc.close();// deshabilitar para los dados
 		return num;
 
 	}
@@ -42,7 +42,7 @@ public class Consola {
 	public static int pedirNum() {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("");
-		scan.close();
+		//scan.close();
 		return scan.nextInt();
 	}
 
@@ -51,7 +51,7 @@ public class Consola {
 		Scanner sc = new Scanner(System.in);
 		escribeY(cadena);
 		letras = sc.nextLine();
-		sc.close();
+		//sc.close();
 		return letras;
 
 	}
