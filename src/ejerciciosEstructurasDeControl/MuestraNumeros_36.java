@@ -2,7 +2,7 @@ package ejerciciosEstructurasDeControl;
 
 import vista.Consola;
 
-public class MuestraNumeros {
+public class MuestraNumeros_36 {
 
 	private int num1;
 	private int num2;
@@ -11,7 +11,7 @@ public class MuestraNumeros {
 	Consola con = new Consola();
 
 	public static void main(String[] args) {
-		new MuestraNumeros().muestraNum();
+		new MuestraNumeros_36().muestraNum();
 	}
 
 	public void muestraNum() {
