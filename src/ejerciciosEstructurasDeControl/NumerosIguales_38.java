@@ -20,12 +20,10 @@ public class NumerosIguales_38 {
 			num = Integer.parseInt(con.introCadena("Introduce numeros hasta que dos sean iguales y seguidos: "));
 			if ((aux == num)) {
 				aux1 = aux;
-			}
-			if (aux != num) {
+			} else {
 				aux = num;
 			}
 		}
-		System.out.println("Salio!!"+"\n"+"Se ha introducido dos numeros iguales");
+		System.out.println("Salio!!" + "\n" + "Se ha introducido dos numeros iguales");
 	}
-
 }
