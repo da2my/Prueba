@@ -5,10 +5,8 @@ import vista.Consola;
 public class FactorialNum_43 {
 
 	private int num;
-	private int aux = 2;
-	private int cont;
-	private int result;
-	private int reset;
+	private int aux;
+
 
 	Consola con = new Consola();
 
