@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 //import java.util.*;
 
-public class MediaPosNeg {
+public class MediaPosNeg_44 {
 
 	private int[] num = new int[10];
 	private int auxP;
@@ -18,7 +18,7 @@ public class MediaPosNeg {
 	DecimalFormat dFormat = new DecimalFormat("###.##");
 
 	public static void main(String[] args) {
-		new MediaPosNeg().mediaNum();
+		new MediaPosNeg_44().mediaNum();
 	}
 
 	public void mediaNum() {
