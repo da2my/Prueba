@@ -11,10 +11,10 @@ public class SumaSueldo_45 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new SumaSueldo_45().sumaSueldo();
+		new SumaSueldo_45().pideSueldos();
 	}
 
-	public void sumaSueldo() {
+	public void pideSueldos() {
 //		for (int i : sueldo) {
 //			sueldo[i] = (int) (Math.random() * 100 * (Math.random() > 0.1 ? 1 : -1));
 //			System.out.println(sueldo[i]);
