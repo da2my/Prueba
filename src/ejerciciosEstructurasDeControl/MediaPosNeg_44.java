@@ -23,7 +23,9 @@ public class MediaPosNeg_44 {
 
 	public void mediaNum() {
 		for (int i : num) {
-			num[i] = (int) (Math.random() * 100 * (Math.random() > 0.1 ? 1 : -1));
+			num[i] = (int) (Math.random() * 100 * (Math.random() > 0.1 ? 1 : -1));// esta sentencia muestra como hacer
+																					// con un operador ternario que
+																					// cuente de -100 hasta 100
 			if (num[i] > 0) {
 				contP++;
 				auxP += num[i];
