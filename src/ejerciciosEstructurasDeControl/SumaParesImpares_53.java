@@ -16,7 +16,7 @@ public class SumaParesImpares_53 {
 			if (i%2==0) {
 				pares+=i;
 //				System.out.println(i);
-			}else if(!(i%2==0)){
+			}else {
 				impares+=i;
 //				System.out.println(i);
 			}
