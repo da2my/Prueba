@@ -1,4 +1,4 @@
-package controlador.pueba;
+package controlador.prueba;
 
 import java.lang.*;
 import java.util.*;
@@ -10,12 +10,12 @@ public class InicioPrueba {
 
 	public static void main(String[] args) {
 	
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Introduzca el genero: ");
-		String cadena = scan.next();
-		char sexo;
-		sexo = cadena.charAt(0);
-		System.out.println(sexo);
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("Introduzca el genero: ");
+//		String cadena = scan.next();
+//		char sexo;
+//		sexo = cadena.charAt(0);
+//		System.out.println(sexo);
 		
 		
 //		//OPERADORES NUMÉRICOS DE ASIGNACIÓN ABREVIADA
