@@ -7,23 +7,19 @@ public class FactorialNum_43 {
 	private int num;
 	private int aux;
 
-
 	Consola con = new Consola();
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		new FactorialNum_43().factorial();
 	}
 
 	public void factorial() {
 		num = Integer.parseInt(con.introCadena("Numero Factorial: "));
-
-		for (int i = 1; i <= num; i++) {
-			for (int j = 2; j <= num; j++) {
-				aux = i * j;
-				i = aux;
-			}
-			System.out.println(i);
+		int n = 1;
+		for (int j = 1; j <= num; j++) {
+			aux = n * j;
+			n = aux;
+			System.out.println(j + "! = " + n);
 		}
 	}
 }
