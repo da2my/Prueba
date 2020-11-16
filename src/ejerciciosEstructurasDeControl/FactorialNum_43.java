@@ -10,7 +10,8 @@ public class FactorialNum_43 {
 	Consola con = new Consola();
 
 	public static void main(String[] args) {
-		new FactorialNum_43().factorial();
+//		new FactorialNum_43().factorial();
+		System.out.println(FactorialNum_43.factorialWhile(4));
 	}
 
 	public void factorial() {
@@ -21,5 +22,14 @@ public class FactorialNum_43 {
 			n = aux;
 			System.out.println(j + "! = " + n);
 		}
+	}
+	
+	public static int factorialWhile(int numero) {
+		int resultado=1;
+		while(numero>0) {
+			resultado *= numero; 
+			numero--;
+		}
+		return resultado;
 	}
 }
