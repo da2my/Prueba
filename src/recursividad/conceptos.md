@@ -39,7 +39,7 @@ por el factorial(numero-1) que es 5 |6*factorial(5)|, pero aun no sabemos cual e
 de 5; entonces tendriamos que esperar a obtener ese dato antes de poder hacer 
 la multiplicacion, asi que vayamos a calcular el factorial de 5 
 |factorial(6)|
-|6*factorial(5)|,
+|6*factorial(5)|
 |6*(5*factorial(4))| 
 |6*(5*(4*factorial(3)))| 
 |6*(5*(4*(3*factorial(2))))|
