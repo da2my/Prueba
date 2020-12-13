@@ -4,11 +4,11 @@ public class Euclides {
 
 	public static void main(String[] args) {
 
-		euclides(66, 44);//tiene que ser mayor el parametro m por cuestiones de array
+		euclides(66, 44);// tiene que ser mayor el parametro m por cuestiones de array
 
 	}
 
-	public static void euclides(int m, int n) {//tiene que ser mayor el parametro m por cuestiones de array
+	public static void euclides(int m, int n) {// tiene que ser mayor el parametro m por cuestiones de array
 		int[] divisores1 = new int[m];
 		int[] divisores2 = new int[n];
 		int[] divisoresR = new int[divisores1.length + divisores2.length];
